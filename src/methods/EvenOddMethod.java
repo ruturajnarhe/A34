@@ -1,0 +1,15 @@
+package methods;
+import java.util.Scanner;
+class EvenOddMethod {
+	static int num;
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a number : ");
+		num = sc.nextInt();
+		isEvenOdd();
+	}
+	public static void isEvenOdd() {
+		if(num % 2 == 0) System.out.println(num + " is Even");
+		else System.out.println(num + " is Odd");
+	}
+}
