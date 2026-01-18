@@ -81,12 +81,14 @@ class TicTacToe {
 			cntO = 0;
 		}
 		// diagonal condition
-		if((grid[0][0] == 'X' && grid[1][1] == 'X' && grid[2][2] == 'X') || (grid[0][2] == 'X' && grid[1][1] == 'X' && grid[2][0] == 'X')) {
+		if((grid[0][0] == 'X' && grid[1][1] == 'X' && grid[2][2] == 'X') || 
+			(grid[0][2] == 'X' && grid[1][1] == 'X' && grid[2][0] == 'X')) {
 			displayGrid(grid);
 			System.out.println("\nX is winner");
 			System.exit(0);
 		}
-		if((grid[0][0] == 'O' && grid[1][1] == 'O' && grid[2][2] == 'O') || (grid[0][2] == 'O' && grid[1][1] == 'O' && grid[2][0] == 'O')) {
+		if((grid[0][0] == 'O' && grid[1][1] == 'O' && grid[2][2] == 'O') || 
+			(grid[0][2] == 'O' && grid[1][1] == 'O' && grid[2][0] == 'O')) {
 			displayGrid(grid);
 			System.out.println("\nO is winner");
 			System.exit(0);

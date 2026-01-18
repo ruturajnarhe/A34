@@ -1,4 +1,5 @@
 package leetcode;
+
 class HappyNumber {
 	public static void main(String[] args) {
 		int num = 12312, dup = num ;
